@@ -15,7 +15,7 @@ public class Email {
 		this.firstName = firstName;
 		this.lastName = lastName;		
 
-		System.out.println("Created : " + this.firstName + " "  + this.lastName);
+		System.out.println("Email has been created : " + this.firstName + " "  + this.lastName);
 		System.out.print("masukan kode departement\n1.dev\n2.sales\nkode: "); 
 		deptChoice = scan.nextInt();
 		scan.nextLine();
