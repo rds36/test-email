@@ -21,7 +21,7 @@ public class Email {
 		scan.nextLine();
 		setDept(deptChoice);
 		email = genEmail();
-		System.out.println("Email terbuat! \n");
+		System.out.println("Email created! \n");
 		password = genPass(8);
 
 	}
